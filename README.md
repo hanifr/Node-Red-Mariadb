@@ -1,6 +1,18 @@
 # Node-Red-Mariadb
  Deployment of Node-Red apps and MariadbB on Ubuntu Platform via Docker-compose
+```
+adduser username
 
+sudo usermod -aG sudo username
+
+su - username
+
+git clone https://github.com/hanifr/Node-Red-Mariadb.git
+
+./InitDocker.sh
+cd NR
+docker-compose up -d
+```
  ################################################################################
 # Node-RED Stack or Compose
 ################################################################################
