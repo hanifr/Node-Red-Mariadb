@@ -32,11 +32,14 @@ sleep 2
 
 apt install docker-ce
 
-systemctl status docker
+apt install docker-compose
+
 sleep 5
 sudo usermod -aG docker $USER
 
 sudo chmod 666 /var/run/docker.sock
+
+systemctl status docker
 
 echo -e "${_CYAN}Docker installation :: finished${_RESET}"
 echo

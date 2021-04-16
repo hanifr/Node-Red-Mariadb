@@ -9,8 +9,12 @@ su - username
 
 git clone https://github.com/hanifr/Node-Red-Mariadb.git
 
+cd Node-Red-Mariadb
+
 ./InitDocker.sh
+
 cd NR
+
 docker-compose up -d
 ```
  ################################################################################
